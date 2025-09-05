@@ -1,1 +1,98 @@
 # index.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taverna do Dragão Vermelho</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #1a1a1a url('https://i.ibb.co/0c4yyhP/dnd-map.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f5f5dc;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid crimson;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: crimson;
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f5f5dc;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    main {
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: gold;
+      border-bottom: 2px solid crimson;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      border-top: 3px solid crimson;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍺 Taverna do Dragão Vermelho</h1>
+    <nav>
+      <a href="#aventuras">Aventuras</a>
+      <a href="#monstros">Monstros</a>
+      <a href="#itens">Itens Mágicos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="aventuras">
+      <h2>Aventuras</h2>
+      <p>Explore masmorras perigosas, lute contra dragões e desvende segredos antigos. Sua campanha começa aqui!</p>
+    </section>
+
+    <section id="monstros">
+      <h2>Monstros</h2>
+      <ul>
+        <li>Dragão Vermelho</li>
+        <li>Beholder</li>
+        <li>Lich</li>
+        <li>Orc Guerreiro</li>
+      </ul>
+    </section>
+
+    <section id="itens">
+      <h2>Itens Mágicos</h2>
+      <p>Espada Flamejante, Cajado dos Magos, Anel da Invisibilidade... escolha seu tesouro!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>⚔️ Criado por um aventureiro apaixonado por D&D | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
